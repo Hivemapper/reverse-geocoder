@@ -14,8 +14,7 @@ Python script for using the Google Maps API Reverse Geocoder
 
 ##### Usage
 ```
-pip3 install pandas==0.24.2
-```
+pip3 install pandas
 ```
 pip3 install googlemaps==4.3.1
 ```
