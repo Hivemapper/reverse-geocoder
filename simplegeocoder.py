@@ -13,7 +13,7 @@ def parse_args():
                       help="Name of CSV file where output containing geocoded columns will be written",
                       required=True)
   parser.add_argument('-a', '--api_key', type=str,
-                      help="Google Maps API Key (located on production in /usr/etc/hive/conf/geocoder.json")
+                      help="Google Maps API Key
 
   parsed_args = parser.parse_args()
   return parsed_args
